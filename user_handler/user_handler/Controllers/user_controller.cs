@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 using System.Threading.Tasks;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -31,24 +31,24 @@ namespace user_handler.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(UseCase.User.Command.Post.Handler data)
+        public async Task<IActionResult> Post(UseCase.User.Command.Post.Command _Data)
         {
-            var result = await meciater.Send(data);
+            var result = await meciater.Send(_Data);
             return Ok(result);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(int ID, UseCase.User.Command.Put.Handler data)
+        public async Task<IActionResult> Put(int ID, UseCase.User.Command.Put.Command _Data)
         {
-            data.Dataa.Attributes.id = ID;
-            var result = await meciater.Send(data);
+            _Data.data.Attributes.id = ID;
+            var result = await meciater.Send(_Data);
             return Ok(result);
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int ID)
         {
-            var command = new UseCase.User.Command.Delete.Handler(ID);
+            var command = new UseCase.User.Command.Delete.Command(ID);
             var result = await meciater.Send(command);
             return result != null ? (IActionResult)Ok(new { Message = "success" }) : NotFound(new { Message = "not found" });
 
