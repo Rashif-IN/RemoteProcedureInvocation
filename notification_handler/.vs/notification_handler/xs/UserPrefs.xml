@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{A2BE738C-D04B-4379-9C42-E00B7B3CB541}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="notification_handler" expanded="True">
+            <Node name="notification_handler" expanded="True">
+              <Node name="Model" expanded="True">
+                <Node name="notif_logs_model.cs" selected="True" />
+              </Node>
+              <Node name="UseCase" expanded="True">
+                <Node name="Notification" expanded="True">
+                  <Node name="Command" expanded="True">
+                    <Node name="Delete" expanded="True" />
+                    <Node name="Put" expanded="True" />
+                  </Node>
+                  <Node name="Query" expanded="True">
+                    <Node name="Get" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.notification__handler FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
