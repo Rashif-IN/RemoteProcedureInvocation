@@ -36,7 +36,7 @@ namespace notification_handler.UseCase.Notification.Command.Post
 
             var Notif = konteks.notif.First(x => x.title == request.data.Attributes.Title);
 
-            foreach (var x in request.data.Attributes.Target)
+            foreach (var x in request.data.Attributes.Target) //overhere
             {
                 konteks.Add(new notif_logs_model
                 {

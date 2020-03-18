@@ -1,28 +1,30 @@
 ﻿<Properties StartupConfiguration="{2D91A3EF-00E1-467E-A51D-9C81D929EDAD}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../notification_handler/notification_handler/Controllers/notif_controller.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="user_handler/Dockerfile">
     <Files>
-      <File FileName="../notification_handler/notification_handler/UseCase/Notification/Command/Post/Handler.cs" Line="39" Column="13" />
-      <File FileName="../notification_handler/notification_handler/Controllers/notif_controller.cs" Line="46" Column="53" />
+      <File FileName="../notification_handler/notification_handler/UseCase/Notification/Command/Post/Handler.cs" Line="39" Column="57" />
+      <File FileName="../notification_handler/notification_handler/Controllers/notif_controller.cs" Line="46" Column="55" />
+      <File FileName="../notification_handler/notification_handler/Model/data_model.cs" Line="1" Column="1" />
+      <File FileName="../notification_handler/notification_handler/Model/notif_model.cs" Line="1" Column="1" />
+      <File FileName="../notification_handler/notification_handler/Model/notif_logs_model.cs" Line="6" Column="18" />
+      <File FileName="../notification_handler/notification_handler/UseCase/Notification/Command/Post/Command.cs" Line="19" Column="36" />
+      <File FileName="user_handler/UseCase/User/Command/Post/Handler.cs" Line="39" Column="35" />
+      <File FileName="user_handler/Model/mail_model.cs" Line="12" Column="42" />
+      <File FileName="user_handler/Dockerfile" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="user_handler" expanded="True">
-            <Node name="notification_handler" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="notif_controller.cs" selected="True" />
-              </Node>
+            <Node name="user_handler" expanded="True">
               <Node name="Model" expanded="True" />
               <Node name="UseCase" expanded="True">
-                <Node name="Notification" expanded="True">
+                <Node name="User" expanded="True">
                   <Node name="Command" expanded="True">
                     <Node name="Post" expanded="True" />
                   </Node>
-                  <Node name="Query" expanded="True">
-                    <Node name="Get" expanded="True" />
-                  </Node>
                 </Node>
               </Node>
+              <Node name="Dockerfile" selected="True" />
             </Node>
           </Node>
         </State>

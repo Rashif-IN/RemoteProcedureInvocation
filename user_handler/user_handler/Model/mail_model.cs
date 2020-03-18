@@ -9,7 +9,7 @@ namespace user_handler.Model
         public string Message { get; set; }
         public string Type { get; set; }
         public int From { get; set; }
-        public List<TargetCommand> Targets { get; set; }
+        public List<TargetCommand> Target  { get; set; }
     }
 
     public class TargetCommand

@@ -42,7 +42,7 @@ namespace user_handler.UseCase.User.Command.Post
                 Message = "you think this is hello world, but it was me dio",
                 Type = "email",
                 From = 2,
-                Targets = new List<TargetCommand>() { target }
+                Target = new List<TargetCommand>() { target }
             };
 
             var attributes = new Data<PostCommand>()
