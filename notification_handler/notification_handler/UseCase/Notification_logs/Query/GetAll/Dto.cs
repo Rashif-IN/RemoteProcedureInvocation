@@ -1,10 +1,11 @@
-﻿using System;
+﻿
+using System.Collections.Generic;
+using notification_handler.Model;
+
 namespace notification_handler.UseCase.Notification_logs.Query.GetAll
 {
-    public class Dto
+    public class Dto : dto_model
     {
-        public Dto()
-        {
-        }
+        public List <NotificationDTO> Data { get; set; }
     }
 }

@@ -1,10 +1,10 @@
-﻿using System;
+﻿
+using notification_handler.Model;
+
 namespace notification_handler.UseCase.Notification_logs.Command.Delete
 {
-    public class Dto
+    public class Dto : dto_model
     {
-        public Dto()
-        {
-        }
+
     }
 }

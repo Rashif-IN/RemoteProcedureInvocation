@@ -1,30 +1,25 @@
-﻿<Properties StartupConfiguration="{BB8CDEBF-AC96-4AB8-9F86-6572F129A717}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="user_handler/Controllers/user_controller.cs">
+﻿<Properties StartupConfiguration="{2D91A3EF-00E1-467E-A51D-9C81D929EDAD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../notification_handler/notification_handler/Controllers/notif_controller.cs">
     <Files>
-      <File FileName="user_handler/Controllers/user_controller.cs" Line="44" Column="53" />
-      <File FileName="user_handler/UseCase/User/Command/Put/Command.cs" />
-      <File FileName="user_handler/UseCase/User/Command/Put/Dto.cs" />
-      <File FileName="user_handler/UseCase/User/Command/Put/Handler.cs" />
-      <File FileName="user_handler/UseCase/User/Command/Delete/Command.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="user_handler/UseCase/User/Command/Delete/Dto.cs" NotebookId="1" />
-      <File FileName="user_handler/UseCase/User/Command/Delete/Handler.cs" NotebookId="1" />
-      <File FileName="user_handler/Model/user_model.cs" NotebookId="1" />
-      <File FileName="user_handler/Startup.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="../notification_handler/notification_handler/UseCase/Notification/Command/Post/Handler.cs" Line="39" Column="13" />
+      <File FileName="../notification_handler/notification_handler/Controllers/notif_controller.cs" Line="46" Column="53" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="user_handler" expanded="True">
-            <Node name="user_handler" expanded="True">
+            <Node name="notification_handler" expanded="True">
               <Node name="Controllers" expanded="True">
-                <Node name="user_controller.cs" selected="True" />
+                <Node name="notif_controller.cs" selected="True" />
               </Node>
               <Node name="Model" expanded="True" />
-              <Node name="Properties" expanded="True" />
               <Node name="UseCase" expanded="True">
-                <Node name="User" expanded="True">
+                <Node name="Notification" expanded="True">
                   <Node name="Command" expanded="True">
-                    <Node name="Delete" expanded="True" />
+                    <Node name="Post" expanded="True" />
+                  </Node>
+                  <Node name="Query" expanded="True">
+                    <Node name="Get" expanded="True" />
                   </Node>
                 </Node>
               </Node>
@@ -34,9 +29,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.user__handler FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.user__handler PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

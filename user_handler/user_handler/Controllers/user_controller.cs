@@ -5,9 +5,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace user_handler.Controllers
 {
+
+    [ApiController]
+    [Route("user")]
     public class user_controller : ControllerBase
     {
-
         private IMediator meciater;
 
         public user_controller(IMediator mediatr)
@@ -15,6 +17,7 @@ namespace user_handler.Controllers
             meciater = mediatr;
         }
 
+        
         [HttpGet]
         public async Task<ActionResult<UseCase.User.Query.GetAll.Dto>> Get()
         {

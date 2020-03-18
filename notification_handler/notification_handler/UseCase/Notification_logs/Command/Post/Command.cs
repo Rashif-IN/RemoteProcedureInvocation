@@ -1,10 +1,11 @@
-﻿using System;
+﻿
+using MediatR;
+using notification_handler.Model;
+
 namespace notification_handler.UseCase.Notification_logs.Command.Post
 {
-    public class Command
+    public class Command : RequestData<notif_logs_model>, IRequest<Dto>
     {
-        public Command()
-        {
-        }
+
     }
 }

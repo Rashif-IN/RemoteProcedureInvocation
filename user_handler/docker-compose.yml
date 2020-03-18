@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  user_handler:
+    image: ${DOCKER_REGISTRY-}userhandler
+    build:
+      context: .
+      dockerfile: user_handler/Dockerfile

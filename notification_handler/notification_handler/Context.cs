@@ -12,6 +12,14 @@ namespace notification_handler
 
         public DbSet<notif_logs_model> notiflog { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder
+                .Entity<notif_logs_model>()
+                .HasOne(X => X.notification)
+                .WithMany()
+                .HasForeignKey(X => X.notification_id);
+        }
 
     }
 }
