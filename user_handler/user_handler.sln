@@ -7,6 +7,12 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "notification_handler", "..\notification_handler\notification_handler\notification_handler.csproj", "{DE7CB803-1F48-474C-BD0D-0F3ACD8A0DC2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BFFC8B11-8F78-4034-B8AE-0C0D9ED2F213}"
+	ProjectSection(SolutionItems) = preProject
+		user_handler.sln = user_handler.sln
+		user_handler\user_handler.csproj = user_handler\user_handler.csproj
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

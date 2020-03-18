@@ -1,42 +1,32 @@
 ﻿<Properties StartupConfiguration="{2D91A3EF-00E1-467E-A51D-9C81D929EDAD}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="user_handler/Dockerfile">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../notification_handler/notification_handler/Dockerfile">
     <Files>
-      <File FileName="../notification_handler/notification_handler/UseCase/Notification/Command/Post/Handler.cs" Line="39" Column="57" />
-      <File FileName="../notification_handler/notification_handler/Controllers/notif_controller.cs" Line="46" Column="55" />
-      <File FileName="../notification_handler/notification_handler/Model/data_model.cs" Line="1" Column="1" />
-      <File FileName="../notification_handler/notification_handler/Model/notif_model.cs" Line="1" Column="1" />
-      <File FileName="../notification_handler/notification_handler/Model/notif_logs_model.cs" Line="6" Column="18" />
-      <File FileName="../notification_handler/notification_handler/UseCase/Notification/Command/Post/Command.cs" Line="19" Column="36" />
-      <File FileName="user_handler/UseCase/User/Command/Post/Handler.cs" Line="39" Column="35" />
-      <File FileName="user_handler/Model/mail_model.cs" Line="12" Column="42" />
-      <File FileName="user_handler/Dockerfile" Line="1" Column="1" />
+      <File FileName="user_handler.sln" Line="8" Column="1" />
+      <File FileName="user_handler/appsettings.json" Line="11" Column="94" />
+      <File FileName="user_handler/user_handler.csproj" Line="39" Column="1" />
+      <File FileName="../notification_handler/notification_handler/Dockerfile" Line="3" Column="1" />
+      <File FileName="user_handler/Dockerfile" Line="16" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="user_handler" expanded="True">
-            <Node name="user_handler" expanded="True">
-              <Node name="Model" expanded="True" />
-              <Node name="UseCase" expanded="True">
-                <Node name="User" expanded="True">
-                  <Node name="Command" expanded="True">
-                    <Node name="Post" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
+            <Node name="notification_handler" expanded="True">
               <Node name="Dockerfile" selected="True" />
             </Node>
+            <Node name="user_handler" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.user__handler PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/user/Projects/RPI/user_handler/user_handler/Dockerfile" relfile="user_handler/Dockerfile" line="11" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

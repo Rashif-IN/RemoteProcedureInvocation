@@ -38,3 +38,4 @@
 /Users/user/Projects/RPI/notification_handler/notification_handler/obj/Debug/netcoreapp3.1/staticwebassets/notification_handler.StaticWebAssets.xml
 /Users/user/Projects/RPI/notification_handler/notification_handler/obj/Debug/netcoreapp3.1/notification_handler.dll
 /Users/user/Projects/RPI/notification_handler/notification_handler/obj/Debug/netcoreapp3.1/notification_handler.pdb
+/Users/user/Projects/RPI/notification_handler/notification_handler/obj/Debug/netcoreapp3.1/notification_handler.csproj.CoreCompileInputs.cache

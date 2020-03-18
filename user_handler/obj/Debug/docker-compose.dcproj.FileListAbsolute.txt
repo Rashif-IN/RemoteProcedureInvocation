@@ -22,3 +22,7 @@
 /Users/user/Projects/RPI/user_handler/obj/Debug/docker-compose.dcprojAssemblyReference.cache
 /Users/user/Projects/RPI/user_handler/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache
 /Users/user/Projects/RPI/user_handler/obj/Debug/docker-compose.dcproj.CopyComplete
+/Users/user/Projects/RPI/user_handler/bin/Debug/mono_crash.3100ec18e6.0.json
+/Users/user/Projects/RPI/user_handler/bin/Debug/notification_handler.dll
+/Users/user/Projects/RPI/user_handler/bin/Debug/Newtonsoft.Json.dll
+/Users/user/Projects/RPI/user_handler/bin/Debug/notification_handler.pdb

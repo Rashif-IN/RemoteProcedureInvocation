@@ -43,7 +43,7 @@ namespace notification_handler.Controllers
         [HttpPost]
         public async Task<IActionResult> Post(UseCase.Notification.Command.Post.Command _Data)
         {
-            var result = await meciater.Send(_Data);
+            var result = await meciater.Send(_Data); //overhere
             return Ok(result);
         }
 
